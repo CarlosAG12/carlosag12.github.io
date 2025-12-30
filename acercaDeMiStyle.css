@@ -1,0 +1,76 @@
+body {
+    background-image: url(image/ftuy4.jpg) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navegacion-superior{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+    color: white;
+    white-space: nowrap;
+    background-color: rgb(13, 12, 12);
+    
+    text-align: center;
+    padding: 10px;
+    gap: 50px;
+    z-index: 100;
+}
+.sitios-ancar {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(233, 226, 226);
+    font-family: 'GeistiMono-semi-bold', monospace;
+    transition: color 0.5s ease;
+}
+
+.acerca-del-barbero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100vh;
+    padding: 50px 50px;
+}
+.texto-acerca-del-barbero {
+    font-family: 'GeistiMono-normal', monospace;
+    font-size: 18px;
+    line-height: 1.6;
+    
+    background-color: transparent;
+    border: 1px solid rgb(139, 128, 128);
+    border-radius: 10px;
+    color: rgb(56, 49, 49);
+    
+    padding: 20px;
+    max-width: 1000px;
+
+}
+.texto-acerca-del-barbero:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.5s ease;
+}
+
+.acerca-del-barbero h2 {
+    font-family: 'GeistiMono-bold', monospace;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(86, 57, 57);
+}
+footer {
+    background-color: rgb(13, 12, 12);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'GeistiMono-normal', monospace;
+}
